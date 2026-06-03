@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Not Defterim</string>
+    <string name="logo">Not Defterim</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="developer">FurOfTheWeak | Furkan</string>
+    <string name="welcome">Notlarınla hep yanında</string>
+    <string name="login">Giriş Yap</string>
+    <string name="signup">Kayıt Ol</string>
+</resources>
