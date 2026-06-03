@@ -63,12 +63,12 @@ notes
 
 1. Repoyu klonla
 ```bash
-git clone https://github.com/kullanici-adi/not-defterim-android.git
+git clone https://github.com/furkhangul/Not-Defterim-Android.git
 ```
 
 2. Android Studio'da aç
 ```
-File → Open → not-defterim-android klasörünü seç
+File → Open → Not-Defterim-Android klasörünü seç
 ```
 
 3. Gradle sync bekle, ardından çalıştır
