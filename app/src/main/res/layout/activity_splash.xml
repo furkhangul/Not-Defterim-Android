@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- Splash (açılış) ekranı -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/background">
+
+    <!-- Logo ve isim alanı -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -13,6 +16,7 @@
         android:gravity="center"
         android:orientation="horizontal">
 
+        <!-- Uygulama logosu -->
         <ImageView
             android:id="@+id/logo"
             android:layout_width="85dp"
@@ -21,11 +25,13 @@
             android:contentDescription="@string/logo"
             android:src="@drawable/logo"/>
 
+        <!-- Yazı alanı -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!-- Uygulama adı -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -34,6 +40,7 @@
                 android:textSize="30sp"
                 android:textStyle="bold"/>
 
+            <!-- Yükleniyor yazısı -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -44,6 +51,7 @@
 
     </LinearLayout>
 
+    <!-- Geliştirici bilgisi -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
