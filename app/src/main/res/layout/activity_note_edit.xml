@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Not düzenleme / oluşturma ekranı -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/rootLayout"
@@ -7,6 +9,7 @@
     android:background="@color/background"
     android:orientation="vertical">
 
+    <!-- Üst bar (geri, sil, kaydet) -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,6 +20,7 @@
         android:paddingBottom="8dp"
         android:gravity="center_vertical">
 
+        <!-- Geri butonu -->
         <ImageButton
             android:id="@+id/btnBack"
             android:layout_width="40dp"
@@ -26,11 +30,13 @@
             android:tint="@color/white"
             android:contentDescription="Geri"/>
 
+        <!-- Boşluk doldurucu -->
         <View
             android:layout_width="0dp"
             android:layout_height="1dp"
             android:layout_weight="1"/>
 
+        <!-- Sil butonu -->
         <ImageButton
             android:id="@+id/btnDelete"
             android:layout_width="40dp"
@@ -42,6 +48,7 @@
             android:contentDescription="Sil"
             android:visibility="gone"/>
 
+        <!-- Kaydet butonu -->
         <ImageButton
             android:id="@+id/btnSave"
             android:layout_width="40dp"
@@ -53,7 +60,7 @@
 
     </LinearLayout>
 
-    <!-- Tarih -->
+    <!-- Not tarihi -->
     <TextView
         android:id="@+id/tvDate"
         android:layout_width="wrap_content"
@@ -63,7 +70,7 @@
         android:paddingStart="20dp"
         android:layout_marginBottom="8dp"/>
 
-    <!-- Başlık -->
+    <!-- Not başlığı -->
     <EditText
         android:id="@+id/etTitle"
         android:layout_width="match_parent"
@@ -81,7 +88,7 @@
         android:imeOptions="actionNext"
         android:singleLine="true"/>
 
-    <!-- Ayraç -->
+    <!-- Ayırıcı çizgi -->
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -90,7 +97,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="12dp"/>
 
-    <!-- İçerik -->
+    <!-- Not içeriği -->
     <EditText
         android:id="@+id/etContent"
         android:layout_width="match_parent"
@@ -108,7 +115,7 @@
         android:inputType="textMultiLine|textCapSentences"
         android:gravity="top"/>
 
-    <!-- Renk seçici -->
+    <!-- Renk seçim alanı -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -120,6 +127,7 @@
         android:paddingBottom="28dp"
         android:background="#0D0D0D">
 
+        <!-- Renk seçenekleri -->
         <View android:id="@+id/color0"
             android:layout_width="32dp" android:layout_height="32dp"
             android:background="@drawable/color_circle_0"
