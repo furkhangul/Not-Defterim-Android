@@ -1,6 +1,9 @@
 package com.example.notdefterim;
 
+// Not bilgilerini tutan model sınıfı
 public class Note {
+
+    // Notun temel bilgileri
     private int id;
     private int userId;
     private String title;
@@ -8,6 +11,7 @@ public class Note {
     private String date;
     private int colorIndex;
 
+    // Not nesnesi oluşturmak için kullanılan yapıcı metot
     public Note(int id, int userId, String title, String content, String date, int colorIndex) {
         this.id = id;
         this.userId = userId;
@@ -17,6 +21,7 @@ public class Note {
         this.colorIndex = colorIndex;
     }
 
+    // Getter metotları (veri okuma)
     public int getId() { return id; }
     public int getUserId() { return userId; }
     public String getTitle() { return title; }
@@ -24,6 +29,7 @@ public class Note {
     public String getDate() { return date; }
     public int getColorIndex() { return colorIndex; }
 
+    // Setter metotları (veri güncelleme)
     public void setTitle(String title) { this.title = title; }
     public void setContent(String content) { this.content = content; }
     public void setDate(String date) { this.date = date; }
