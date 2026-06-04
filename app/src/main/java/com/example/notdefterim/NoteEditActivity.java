@@ -1,3 +1,15 @@
+package com.example.notdefterim;
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.View; 
+import android.widget.EditText; 
+import android.widget.ImageButton; 
+import android.widget.TextView; 
+import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
+import java.text.SimpleDateFormat; 
+import java.util.Date; 
+import java.util.Locale;
 // Not ekleme, düzenleme ve silme işlemlerini yöneten ekran
 public class NoteEditActivity extends AppCompatActivity {
 
