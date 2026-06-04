@@ -1,3 +1,9 @@
+package com.example.notdefterim;
+import android.content.Intent; 
+import android.os.Bundle; 
+import android.os.Handler;
+import androidx.appcompat.app.AppCompatActivity;
+
 // Kullanıcı oturum bilgilerini yöneten sınıf
 public class SessionManager {
 
