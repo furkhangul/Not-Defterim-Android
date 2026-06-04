@@ -1,3 +1,17 @@
+package com.example.notdefterim;
+import android.content.Intent;
+import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager; 
+import androidx.recyclerview.widget.RecyclerView; 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import java.util.List;
 // Kullanıcının notlarını görüntülediği ana ekran
 public class NotesActivity extends AppCompatActivity
         implements NoteAdapter.OnNoteClickListener {
